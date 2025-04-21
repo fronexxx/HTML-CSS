@@ -1,10 +1,25 @@
+body{
+    background-image: url("img/background.avif");
+    background-size: cover;
+    background-position: bottom;
+}
 h1{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    color: darkorange;
+}
+h2{
+    margin-top: 60px;
+    margin-left: 42%;
+    color: darkorange;
 }
 p{
     font-size: 18px;
     margin-left: 30px;
+    color: orange;
+
+
 }
 img{
     width: 150px;
