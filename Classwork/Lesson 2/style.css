@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Special+Gothic+Condensed+One&display=swap');
+.special-gothic {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+}
+.playwrite-ro-400{
+    font-family: "Playwrite RO", cursive;
+
+}
