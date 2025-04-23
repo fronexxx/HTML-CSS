@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.general{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: lightpink;
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rubik{
+    font-family: "Rubik Pixels", system-ui;
+}
+.sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;
+}
+.fjalla{
+    font-family: "Fjalla One", sans-serif;
+}
+.indie{
+    font-family: "Indie Flower", cursive;
+}
