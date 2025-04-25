@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader 2</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .animation{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .animation img{
+            height: 100px;
+        }
+        .boat{
+            animation: boat 3s ease-in infinite alternate;
+        }
+        @keyframes boat {
+            from{
+                transform: translate(0);
+            }
+            10%{
+                transform: translate(30px, 10px);
+            }
+            20%{
+                transform: translate(60px, -15px);
+            }
+            30%{
+                transform: translate(90px, 10px);
+            }
+            40%{
+                transform: translate(120px, -5px);
+            }
+            50%{
+                transform: translate(150px, 5px);
+            }
+            60%{
+                transform: translate(180px, -10px);
+            }
+            70%{
+                transform: translate(210px, 10px);
+            }
+            80%{
+                transform: translate(240px, -15px);
+            }
+            90%{
+                transform: translate(270px, 10px);
+            }
+            to{
+                transform: translate(300px, 0);
+            }
+        }
+        .wave{
+            animation: wave 5s linear infinite alternate;
+            margin-top: -30px;
+        }
+        @keyframes wave {
+            from{
+                transform: scale(1.2);
+            }
+            50%{
+                transform: skew(30deg) scale(1);
+            }
+            to{
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+        <img class="boat" src="img/boat.png" alt="boat">
+        <img class="wave" src="img/wave.png" alt="wave">
+    </div>
+</body>
+</html>

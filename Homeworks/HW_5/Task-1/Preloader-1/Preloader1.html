@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader 1</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 30px solid cornflowerblue;
+            border-right: 30px solid lightpink;
+            border-bottom: 30px solid lightgreen;
+            border-left: 30px solid darkorange;
+            animation: preloader 4s linear infinite alternate;
+        }
+        @keyframes preloader {
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+</body>
+</html>
