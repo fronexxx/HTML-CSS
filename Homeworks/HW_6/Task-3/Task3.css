@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.registration-form{
+    width: 420px;
+    height: 480px;
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+.registration-form>div>h1{
+    text-align: center;
+    font-family: "Playwrite AU SA", cursive;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 4px;
+}
+.together{
+    display: flex;
+    width: 320px;
+    height: 40px;
+}
+.log-in{
+    padding-left: 10px;
+}
+.button-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 30px auto;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    padding-bottom: 30px;
+    color: grey;
+}
+div>img{
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+.img-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.img-a a{
+    color: darkblue;
+    font-weight: 600;
+}
+.forgot-password{
+    text-align: center;
+    margin: 26px 0 18px 0;
+}
+.forgot-password a{
+    color: darkblue;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 100px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    gap: 10px;
+    margin-top: 12px;
+}
+.footer a{
+    color: deepskyblue;
+    font-weight: 600;
+}
